@@ -1,0 +1,29 @@
+.closed-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-image {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.arrow-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
