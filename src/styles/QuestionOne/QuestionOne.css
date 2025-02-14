@@ -8,11 +8,11 @@
     background-color: white;
 }
 
-.q-page1.click-button {
-    background-color: #000000;
+.click-button-1 {
+    background-color: #ff0000;
     position: fixed;
-    bottom: 0; /*change */
-    right: 0; /*change*/
+    top: 60px;
+    left: 80px;
     color: white;
     border: none;
     border-radius: 50%;

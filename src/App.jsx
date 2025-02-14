@@ -22,7 +22,7 @@ function App(){
           <Route path="/question-2" element={<QuestionTwo/>} /> 
           <Route path="/question-3" element={<QuestionThree/>} /> 
           <Route path="/question-4" element={<QuestionFour/>} /> 
-          <Route path="/question-5" element={<QuestionFive/>} /> 
+          <Route path="/question-5" element={<QuestionFive/>} />
           <Route path="/closed-card" element={<CardPage />} /> 
           <Route path="/open-card" element={<OpenPage />} /> 
           </Routes>

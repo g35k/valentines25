@@ -1,19 +1,19 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../../styles/QPage1/QPage1.css';
+import '../../styles/QuestionOne/QuestionOne.css';
 
-const QPage1 = () => {
+const QuestionOne = () => {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        navigate('/closed-card'); //change route if needed
+        navigate('/question-2'); //change route if needed
     };
 
     return (
         <div className="question 1 page">
-            <button className="click-button" onClick={handleClick}>click here &lt;3</button>
+            <button className="click-button-1" onClick={handleClick}>over here!!</button>
         </div>
     );
 };
 
-export default QPage1;
+export default QuestionOne;
